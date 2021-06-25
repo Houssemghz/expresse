@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <style>
+      .header {
+        background-color: rgba(255, 255, 255, 0.589);
+        margin: 0px;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: rgba(133, 128, 128, 0.651) 1px 1px 13px 1px;
+      }
+      .header:hover {
+        box-shadow: rgba(112, 110, 110, 0.986) 1px 1px 19px 1px;
+        transition: all 0.5s;
+      }
+      a {
+        font-size: 60px;
+        /* margin-right: 80px; */
+        margin-top: 5px;
+        color: rgb(133, 131, 131);
+        cursor: pointer;
+      }
+      body {
+        margin: 0px;
+        background-color: rgba(140, 195, 240, 0.205);
+      }
+      .out {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      p {
+        font-size: 50px;
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      /* h1 {
+        font-size: 150px;
+      } */
+    </style>
+    <title>Out of service</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="/"> <i class="bi bi-house-door-fill"></i></a>
+      <a href="Services"> <i class="bi bi-collection-fill"></i></a>
+      <a href="Contact"> <i class="bi bi-envelope-fill"></i></a>
+    </div>
+    <div class="out">
+      <p>Sorry we are out of service now</p>
+      <i
+        class="bi bi-emoji-frown"
+        style="font-size: 15rem; color: rgb(102, 94, 94)"
+      ></i>
+    </div>
+  </body>
+</html>
